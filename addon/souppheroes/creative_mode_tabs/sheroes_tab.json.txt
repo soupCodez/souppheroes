@@ -1,0 +1,6 @@
+{
+  "icon": {
+    "type": "palladium:texture",
+    "texture": "souppheroes:textures/icons/logo.png"
+  }
+}

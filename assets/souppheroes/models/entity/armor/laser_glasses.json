@@ -1,0 +1,147 @@
+{
+    "texture_width": 64,
+    "texture_height": 64,
+    "mesh": {
+        "head": {
+            "cubes": [
+                {
+                    "origin": [
+                        1,
+                        -5,
+                        -5
+                    ],
+                    "dimensions": [
+                        2,
+                        1,
+                        1
+                    ],
+                    "texture_offset": [
+                        15,
+                        3
+                    ]
+                },
+                {
+                    "origin": [
+                        -3,
+                        -5,
+                        -5
+                    ],
+                    "dimensions": [
+                        2,
+                        1,
+                        1
+                    ],
+                    "texture_offset": [
+                        15,
+                        3
+                    ]
+                },
+                {
+                    "origin": [
+                        -5,
+                        -6,
+                        -5
+                    ],
+                    "dimensions": [
+                        10,
+                        1,
+                        1
+                    ],
+                    "texture_offset": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "origin": [
+                        -5,
+                        -6,
+                        -4
+                    ],
+                    "dimensions": [
+                        1,
+                        1,
+                        6
+                    ],
+                    "texture_offset": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "origin": [
+                        4,
+                        -6,
+                        -4
+                    ],
+                    "dimensions": [
+                        1,
+                        1,
+                        6
+                    ],
+                    "texture_offset": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "origin": [
+                        4,
+                        -5,
+                        1
+                    ],
+                    "dimensions": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "texture_offset": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "origin": [
+                        -5,
+                        -5,
+                        1
+                    ],
+                    "dimensions": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "texture_offset": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "children": {}
+        },
+        "hat": {
+            "cubes": [],
+            "children": {}
+        },
+        "body": {
+            "cubes": [],
+            "children": {}
+        },
+        "left_arm": {
+            "cubes": [],
+            "children": {}
+        },
+        "right_arm": {
+            "cubes": [],
+            "children": {}
+        },
+        "left_leg": {
+            "cubes": [],
+            "children": {}
+        },
+        "right_leg": {
+            "cubes": [],
+            "children": {}
+        }
+    }
+}

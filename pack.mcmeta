@@ -1,0 +1,20 @@
+{
+    "pack": {
+      "id": "Soupp Heroes",
+      "description": "A heroes addonpack for Palladium",
+      "pack_format": 8,
+      "version": "0.0.1"
+    },
+    "dependencies": {
+      "common": {
+        "minecraft": ">=1.19",
+        "palladium": "*"
+      },
+      "forge": {
+        "curios": "*"
+      },
+      "fabric": {
+        "trinkets": "*"
+      }
+    }
+  }

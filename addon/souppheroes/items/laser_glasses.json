@@ -1,0 +1,16 @@
+{
+  "type": "palladium:armor",
+  "slot": "head",
+  "armor_texture": "souppheroes:textures/models/armor/laser_glasses.png",
+  "armor_model_layer": "souppheroes:laser_glasses#armor",
+  "armor_material": "minecraft:leather",
+  "max_stack_size": 1,
+  "creative_mode_tab": "souppheroes:sheroes_tab",
+  "rarity": "uncommon",
+  "tooltip": [
+    {
+      "text": "May cause blindness",
+      "color": "#BD0000"
+    }
+  ]
+}

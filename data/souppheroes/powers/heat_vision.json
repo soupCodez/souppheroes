@@ -1,0 +1,18 @@
+{
+  "name": "Energy Blast",
+  "icon": "palladium:redstone_flux_crystal",
+  "abilities": {
+    "heat_vision": {
+      "type": "palladium:energy_blast",
+      "title": "Heat Vision",
+      "origin": "eyes",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:held"
+          }
+        ]
+      }
+    }
+  }
+}
