@@ -1,0 +1,46 @@
+{
+  "name": "Shazam",
+  "icon": {
+    "type": "palladium:texture",
+    "texture": "souppheroes:textures/icons/shazam_logo.png"
+  },
+  "abilities": {
+    "flight": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "palladium:jetpack_flight_speed",
+      "value": 0.075
+    },
+    "hovering": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "palladium:hovering",
+      "value": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:toggle"
+          }
+        ]
+      }
+    },
+    "strength": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "generic.attack_damage",
+      "amount": 10
+    },
+    "speed": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "generic.movement_speed",
+      "amount": 0.2
+    },
+    "health_boost": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "generic.max_health",
+      "amount": 30
+    },
+    "cape": {
+      "type": "palladium:render_layer",
+      "render_layer": "souppheroes:shazam_cape",
+      "title": "Cape"
+    }
+  }
+}

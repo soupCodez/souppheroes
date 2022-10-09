@@ -1,0 +1,19 @@
+{
+  "armor_material": "souppheroes:suit_material",
+  "creative_mode_tab": "souppheroes:sheroes_tab",
+  "armor_texture": "souppheroes:textures/models/armor/shazam_skin.png",
+  "armor_model": "minecraft:humanoid",
+  "armor_model_layer": "palladium:humanoid#suit",
+  "chest": {
+    "item_name": "shazam_chest"
+  },
+  "legs": {
+    "item_name": "shazam_legs"
+  },
+  "feet": {
+    "item_name": "shazam_feet"
+  },
+  "head": {
+    "item_name": "shazam_head"
+  }
+}
