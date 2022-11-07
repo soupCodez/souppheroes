@@ -5,5 +5,11 @@
   "item.souppheroes.shazam_head": "Shazam Head",
   "item.souppheroes.shazam_chest": "Shazam Chest",
   "item.souppheroes.shazam_legs": "Shazam Legs",
-  "item.souppheroes.shazam_feet": "Shazam Feet"
+  "item.souppheroes.shazam_feet": "Shazam Feet",
+  "item.souppheroes.ironman_head": "Iron Man Head",
+  "item.souppheroes.ironman_chest": "Iron Man Chest",
+  "item.souppheroes.ironman_legs": "Iron Man Legs",
+  "item.souppheroes.ironman_feet": "Iron Man Feet",
+  "item.souppheroes.arc_reactor": "Arc Reactor",
+  "item.souppheroes.arc_reactor_with_suit": "Arc Reactor"
 }

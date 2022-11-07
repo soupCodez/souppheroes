@@ -1,0 +1,15 @@
+{
+  "type": "palladium:armor",
+  "slot": "chest",
+  "armor_texture": "souppheroes:textures/models/armor/ironman_skin.png",
+  "armor_model_layer": "souppheroes:arc_reactor#armor",
+  "armor_material": "minecraft:leather",
+  "max_stack_size": 1,
+  "creative_mode_tab": "souppheroes:sheroes_tab",
+  "rarity": "rare",
+  "tooltip": [
+    {
+      "text": "Includes Iron Man Suit"
+    }
+  ]
+}

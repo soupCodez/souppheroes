@@ -1,0 +1,73 @@
+{
+  "name": "Arc Reactor",
+  "icon": "souppheroes:arc_reactor",
+  "abilities": {
+    "render_layer": {
+      "type": "palladium:render_layer",
+      "render_layer": "souppheroes:ironman_nanotech"
+    },
+    "interpolate": {
+      "type": "palladium:shrink_body_overlay",
+      "max_value": 16,
+      "hidden": false,
+      "icon": "souppheroes:arc_reactor",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:toggle"
+          }
+        ]
+      }
+    },
+    "flight": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "palladium:jetpack_flight_speed",
+      "value": 0.075,
+      "conditions": {
+        "unlocking": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "interpolate"
+          }
+        ]
+      }
+    },
+    "hovering": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "palladium:hovering",
+      "value": 1,
+      "conditions": {
+        "unlocking": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "interpolate"
+          }
+        ],
+        "enabling": [
+          {
+            "type": "palladium:toggle"
+          }
+        ]
+      }
+    },
+    "unibeam": {
+      "type": "palladium:energy_blast",
+      "title": "Unibeam",
+      "origin": "chest",
+      "color": "#edd712",
+      "conditions": {
+        "unlocking": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "interpolate"
+          }
+        ],
+        "enabling": [
+          {
+            "type": "palladium:held"
+          }
+        ]
+      }
+    }
+  }
+}

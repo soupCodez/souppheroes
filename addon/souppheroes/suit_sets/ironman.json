@@ -5,15 +5,15 @@
   "armor_model": "minecraft:humanoid",
   "armor_model_layer": "palladium:humanoid#suit",
   "chest": {
-    "item_name": "shazam_chest"
+    "item_name": "ironman_chest"
   },
   "legs": {
-    "item_name": "shazam_legs"
+    "item_name": "ironman_legs"
   },
   "feet": {
-    "item_name": "shazam_feet"
+    "item_name": "ironman_feet"
   },
   "head": {
-    "item_name": "shazam_head"
+    "item_name": "ironman_head"
   }
 }

@@ -1,0 +1,328 @@
+{
+    "texture_width": 64,
+    "texture_height": 64,
+    "mesh": {
+        "Head": {
+            "part_pose": {
+                "offset": [
+                    0,
+                    -24,
+                    0
+                ]
+            },
+            "cubes": [
+                {
+                    "name": "Head",
+                    "origin": [
+                        -4,
+                        -8,
+                        -4
+                    ],
+                    "dimensions": [
+                        8,
+                        8,
+                        8
+                    ],
+                    "texture_offset": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "Hat Layer",
+                    "origin": [
+                        -4,
+                        -8,
+                        -4
+                    ],
+                    "dimensions": [
+                        8,
+                        8,
+                        8
+                    ],
+                    "texture_offset": [
+                        32,
+                        0
+                    ],
+                    "deformation": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            ],
+            "children": {}
+        },
+        "Body": {
+            "part_pose": {
+                "offset": [
+                    0,
+                    -24,
+                    0
+                ]
+            },
+            "cubes": [
+                {
+                    "name": "Body",
+                    "origin": [
+                        -4,
+                        0,
+                        -2
+                    ],
+                    "dimensions": [
+                        8,
+                        12,
+                        4
+                    ],
+                    "texture_offset": [
+                        16,
+                        16
+                    ]
+                },
+                {
+                    "name": "Body Layer",
+                    "origin": [
+                        -4,
+                        0,
+                        -2
+                    ],
+                    "dimensions": [
+                        8,
+                        12,
+                        4
+                    ],
+                    "texture_offset": [
+                        16,
+                        32
+                    ],
+                    "deformation": [
+                        0.25,
+                        0.25,
+                        0.25
+                    ]
+                },
+                {
+                    "origin": [
+                        -1,
+                        1,
+                        -2.5
+                    ],
+                    "dimensions": [
+                        2,
+                        2,
+                        2
+                    ],
+                    "texture_offset": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "children": {}
+        },
+        "RightArm": {
+            "part_pose": {
+                "offset": [
+                    -5,
+                    -22,
+                    0
+                ]
+            },
+            "cubes": [
+                {
+                    "name": "Right Arm",
+                    "origin": [
+                        -3,
+                        -2,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        12,
+                        4
+                    ],
+                    "texture_offset": [
+                        40,
+                        16
+                    ]
+                },
+                {
+                    "name": "Right Arm Layer",
+                    "origin": [
+                        -3,
+                        -2,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        12,
+                        4
+                    ],
+                    "texture_offset": [
+                        40,
+                        32
+                    ],
+                    "deformation": [
+                        0.25,
+                        0.25,
+                        0.25
+                    ]
+                }
+            ],
+            "children": {}
+        },
+        "LeftArm": {
+            "part_pose": {
+                "offset": [
+                    5,
+                    -22,
+                    0
+                ]
+            },
+            "cubes": [
+                {
+                    "name": "Left Arm",
+                    "origin": [
+                        -1,
+                        -2,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        12,
+                        4
+                    ],
+                    "texture_offset": [
+                        32,
+                        48
+                    ]
+                },
+                {
+                    "name": "Left Arm Layer",
+                    "origin": [
+                        -1,
+                        -2,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        12,
+                        4
+                    ],
+                    "texture_offset": [
+                        48,
+                        48
+                    ],
+                    "deformation": [
+                        0.25,
+                        0.25,
+                        0.25
+                    ]
+                }
+            ],
+            "children": {}
+        },
+        "RightLeg": {
+            "part_pose": {
+                "offset": [
+                    -1.9,
+                    -12,
+                    0
+                ]
+            },
+            "cubes": [
+                {
+                    "name": "Right Leg",
+                    "origin": [
+                        -2,
+                        0,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        12,
+                        4
+                    ],
+                    "texture_offset": [
+                        0,
+                        16
+                    ]
+                },
+                {
+                    "name": "Right Leg Layer",
+                    "origin": [
+                        -2,
+                        0,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        12,
+                        4
+                    ],
+                    "texture_offset": [
+                        0,
+                        32
+                    ],
+                    "deformation": [
+                        0.25,
+                        0.25,
+                        0.25
+                    ]
+                }
+            ],
+            "children": {}
+        },
+        "LeftLeg": {
+            "part_pose": {
+                "offset": [
+                    1.9,
+                    -12,
+                    0
+                ]
+            },
+            "cubes": [
+                {
+                    "name": "Left Leg",
+                    "origin": [
+                        -2,
+                        0,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        12,
+                        4
+                    ],
+                    "texture_offset": [
+                        16,
+                        48
+                    ]
+                },
+                {
+                    "name": "Left Leg Layer",
+                    "origin": [
+                        -2,
+                        0,
+                        -2
+                    ],
+                    "dimensions": [
+                        4,
+                        12,
+                        4
+                    ],
+                    "texture_offset": [
+                        0,
+                        48
+                    ],
+                    "deformation": [
+                        0.25,
+                        0.25,
+                        0.25
+                    ]
+                }
+            ],
+            "children": {}
+        }
+    }
+}

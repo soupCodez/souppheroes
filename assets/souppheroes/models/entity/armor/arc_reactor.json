@@ -1,0 +1,93 @@
+{
+    "texture_width": 64,
+    "texture_height": 64,
+    "mesh": {
+        "head": {
+            "part_pose": {
+                "offset": [
+                    0,
+                    -24,
+                    0
+                ]
+            },
+            "cubes": [],
+            "children": {}
+        },
+        "body": {
+            "part_pose": {
+                "offset": [
+                    0,
+                    -24,
+                    0
+                ]
+            },
+            "cubes": [
+                {
+                    "origin": [
+                        -1,
+                        1,
+                        -2.5
+                    ],
+                    "dimensions": [
+                        2,
+                        2,
+                        2
+                    ],
+                    "texture_offset": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "children": {}
+        },
+        "right_arm": {
+            "part_pose": {
+                "offset": [
+                    -5,
+                    -22,
+                    0
+                ]
+            },
+            "cubes": [],
+            "children": {}
+        },
+        "left_arm": {
+            "part_pose": {
+                "offset": [
+                    5,
+                    -22,
+                    0
+                ]
+            },
+            "cubes": [],
+            "children": {}
+        },
+        "right_leg": {
+            "part_pose": {
+                "offset": [
+                    -1.9,
+                    -12,
+                    0
+                ]
+            },
+            "cubes": [],
+            "children": {}
+        },
+        "left_leg": {
+            "part_pose": {
+                "offset": [
+                    1.9,
+                    -12,
+                    0
+                ]
+            },
+            "cubes": [],
+            "children": {}
+        },
+        "hat": {
+            "cubes": [],
+            "children": {}
+        }
+    }
+}

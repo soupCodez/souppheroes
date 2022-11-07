@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "souppheroes:item/ironman_chest"
+    "layer0": "souppheroes:item/arc_reactor"
   }
 }

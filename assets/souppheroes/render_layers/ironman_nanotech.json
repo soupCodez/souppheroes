@@ -1,0 +1,33 @@
+{
+  "type": "palladium:compound",
+  "layers": [
+    {
+      "model_layer": "minecraft:player#main",
+      "model": "minecraft:player",
+      "texture": {
+        "base": "souppheroes:textures/models/armor/ironman_skin.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "souppheroes:textures/models/alpha_masks/iron_man_suit/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "souppheroes:arc_reactor_nanotech",
+            "ability": "interpolate",
+            "property": "value"
+          }
+        },
+        "output": "souppheroes:textures/models/armor/iron_man_suit_#TIMER"
+      }
+    },
+    {
+      "model_layer": "minecraft:player#main",
+      "model": "minecraft:player",
+      "texture": "souppheroes:textures/models/iron_man_suit_reactor_lights.png",
+      "render_type": "glow"
+    }
+  ]
+}
